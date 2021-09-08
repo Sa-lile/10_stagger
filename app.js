@@ -12,4 +12,4 @@ const btnCat = document.querySelector('.cat-fade')
   
 // }})
 
-gsap.to('.btn', {})
+gsap.to('.btn', {duration: 0.2, x:50, stagger: 0.2})
